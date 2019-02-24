@@ -3,17 +3,17 @@
     {
       "name": "Mariusz",
       "surname": "Szymanski",
-      "type": "Admin"
+      "role": "Admin"
     },
     {
       "name": "Adam",
       "surname": "Nowak",
-      "type": "Developer"
+      "role": "Developer"
     },
     {
       "name": "Piotr",
       "surname": "Kowalski",
-      "type": "Developer"
+      "role": "Developer"
     }
   ]
 }

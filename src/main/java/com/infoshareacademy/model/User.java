@@ -4,15 +4,15 @@ public class User {
 
     private String name;
     private String surname;
-    private String type;
+    private String role;
 
     public User() {
     }
 
-    public User(String name, String surname, String type) {
+    public User(String name, String surname, String role) {
         this.name = name;
         this.surname = surname;
-        this.type = type;
+        this.role = role;
     }
 
     public String getName() {
@@ -31,16 +31,16 @@ public class User {
         this.surname = surname;
     }
 
-    public String getType() {
-        return type;
+    public String getRole() {
+        return role;
     }
 
-    public void setType(String type) {
-        this.type = type;
+    public void setRole(String role) {
+        this.role = role;
     }
 
     @Override
     public String toString() {
-        return "{" + "name='" + name + '\'' + ", surname='" + surname + '\'' + ", type='" + type + '\'' + '}';
+        return "{" + "name='" + name + '\'' + ", surname='" + surname + '\'' + ", role='" + role + '\'' + '}';
     }
 }
