@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "name": "Mariusz",
+      "surname": "Szymanski",
+      "type": "Admin"
+    },
+    {
+      "name": "Adam",
+      "surname": "Nowak",
+      "type": "Developer"
+    },
+    {
+      "name": "Piotr",
+      "surname": "Kowalski",
+      "type": "Developer"
+    }
+  ]
+}
